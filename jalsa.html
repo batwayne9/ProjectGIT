@@ -1,2 +1,61 @@
-Hi..
-This is in MASTER.
+## GIT Project ##
+
+# Installation
+
+  - yum install git           #installing git
+  - git --version             #Checking git installed or not. if installed it shows a version.
+
+ After Successfully installed now we need to setup some global configuration vairables. Now these variables are imp b.coz
+ if u r working with othr developers then they need to know who is checking the code in & out and making changes and 
+ things like that so this is a way to add ur name to all of ur check-ins and code changes.
+  
+# Set Config Values
+
+  - git config --global user.name "batwayne9"
+  - git config --global user.email "batwayne9@gmail.com"  
+
+  - git config --list         #To Check those values
+  
+  - git config --global color.ui auto  #To enable colorization of Command line
+
+# Cloning a Remote REPO
+
+  - git clone <url>
+     
+# Viewig information about the remote repo
+
+  - git remote -v 
+     now you can see its lists the information to the repo
+
+  - git branch -a
+     it shows the lists of all branches in the repo
+
+# Pushing Changes
+
+  - git diff
+     it shows the changes i hav made to the code '-' sign with red color shows the code i changed
+     and '+' sign with green color is modified code.
+
+  - git status
+     lists all new or modified files to be commited.
+
+  - git add <particular file name>
+  - git add -A       #All existing files are added
+     Add files to Staging area
+
+  - git reset <file>
+  - git reset      
+     it remove files from staging area.
+
+  - git commit -m "message"
+     commit these changes to repo.
+
+  - git pull origin master
+     we're now working on a project that could potentially have multiple developers and people
+     hav been pushing their code to that remote repo. while we've been working in our features.
+     so if we hit above command, it shows any changes that have been made since the last time 
+     that we pulled from that repo.
+
+  - git push origin master
+      push all local commits to hub.
+
