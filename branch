@@ -1,0 +1,13 @@
+### GIT Project ###
+
+# Branch Changes
+
+  - git branch
+     List all local branches in the current repo
+
+  - git branch <name>
+     create a new branch
+
+  - git checkout <name>
+     switches to the specified branch
+     
