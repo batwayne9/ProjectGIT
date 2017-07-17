@@ -10,4 +10,24 @@
 
   - git checkout <name>
      switches to the specified branch
-     
+
+# Merge a Branch   
+
+  Merge a branch with master
+  
+  - git checkout master
+     switch to master
+
+  - git branch --merged
+     tells us the barnch is going to be merged in which area
+
+  - git merge <branch name>
+     combines the specified branch into master.
+
+# Delete a branch
+
+  - git branch -d <branch name>
+     delete a specified branch in local repo.
+
+  - git push origin --delete <branch name>
+     delete a specified branch in github.  
